@@ -1,15 +1,17 @@
 ---
+template: post
 title: Organizing tests with jest projects
-date: "2020-02-17T16:17:16.169Z"
-template: "post"
+slug: organizing-tests-with-jest-projects
 draft: false
-slug: "organizing-tests-with-jest-projects"
-category: "blog"
+date: '2020-02-17T16:17:16.169Z'
+description: >-
+  Setting up multiple test suites with jest can be labor intesive. In this
+  article, you will learn about the powerful projects feature of Jest that will
+  simplify this process drastically.
+category: blog
 tags:
-  - "jest"
-  - "javascript testing"
-description: "Setting up multiple test suites with jest can be labor intesive. In this article, you will learn about the powerful projects feature of Jest that will simplify this process drastically."
-socialImage: "/media/jakub.jpg"
+  - jest
+  - javascript testing
 ---
 
 Running tests with jest is a pretty smooth experience right out the box. You can have different commands for unit and integration or end-to-end tests, and then a command to run all of them at once whenever needed.
@@ -146,3 +148,5 @@ We're almost done! Now we need to add the two project configs into our package.j
 ### Example repo
 
 I've included an example repository [here](https://github.com/jakubhomoly/blog-examples/tree/master/jest-projects) that includes the same things as discussed in this article.
+
+Thanks for reading!

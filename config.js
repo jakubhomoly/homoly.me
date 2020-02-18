@@ -10,7 +10,7 @@ module.exports = {
   copyright: `© ${new Date().getUTCFullYear()} ${name}`,
   disqusShortname: '',
   postsPerPage: 5,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-158735347-1',
   useKatex: false,
   menu: [
     {

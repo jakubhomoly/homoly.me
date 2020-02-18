@@ -1,13 +1,15 @@
 'use strict';
 
+const name = 'Jakub Homoly';
+
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://homoly.me',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: `🚀 ${name}`,
+  subtitle: 'Jakub Homoly, full-stack software engineer',
+  copyright: `© ${new Date().getUTCFullYear()} ${name}`,
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
@@ -18,26 +20,22 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name,
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'I love all things tech.',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: 'insane141',
+      github: 'jakubhomoly',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'jakubhomoly',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
